@@ -1,0 +1,2 @@
+Sol_Count,First_UTC,Last_UTC,Season,Northern_Season,Southern_Season,Temp_Avg,Temp_Min,Temp_Max,Pressure_Avg,Pressure_Min,Pressure_Max,Wind_Avg,Wind_Min,Wind_Max,Most_Common_Wind_Direction
+9,2020-10-19T18:32:20Z,2020-10-26T23:09:26Z,fall,"early winter","early summer",-48.613,-75.296,-9.958,580.462,559.766,594.572,5.178,0.406,17.02,WNW

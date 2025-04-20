@@ -1,0 +1,2 @@
+Location,DateTime_UTC,Weather_Description,Temperature_C,Feels_Like_C,Temp_Min_C,Temp_Max_C,Pressure_hPa,Humidity_%,Wind_Speed_mps,Wind_Direction_deg,Cloudiness_%
+Selangor,2025-04-20T09:18:55Z,"few clouds",31.4,37.43,31.4,31.75,1008,66,3.13,270,20
