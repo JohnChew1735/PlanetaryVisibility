@@ -4,5 +4,4 @@ vendor/
 __pycache__/
 *.pyc
 *.png
-APOD_images/
-comparison_images/
+.env
