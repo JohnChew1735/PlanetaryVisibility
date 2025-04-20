@@ -1,7 +1,0 @@
-composer.json
-composer.lock
-vendor/
-__pycache__/
-*.pyc
-*.png
-.env
