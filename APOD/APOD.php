@@ -38,8 +38,16 @@ $imageContent = file_get_contents($imageUrl);
 $imageName = "APOD.jpg";
 $descriptionName = "APOD.txt";
 $description = $data["explanation"];
-file_put_contents("APOD_images/" . $imageName, $imageContent);
-file_put_contents("APOD_images/" . $descriptionName, $description);
+$folder = "APOD_images/";
+
+// Create the folder if it doesn't exist
+if (!file_exists($folder)) {
+    mkdir($folder, 0777, true); // true allows creation of nested folders if needed
+}
+
+// Now you can safely write the files
+file_put_contents($folder . $imageName, $imageContent);
+file_put_contents($folder . $descriptionName, $description);
 
 echo("\nPicture and description saved in folder image\n");
 ?>
